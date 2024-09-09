@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+
+	int tablue[]={1,4,5,8,6,2,7,3};
+	int n = sizeof(tablue)/sizeof(tablue[0]);
+	for(int i=0;i<n;i++){
+   if(tablue[i] == 5){
+	printf("found in %i",i);
+
+   }
+
+	}
+	
+	return 0;
+}
